@@ -1,0 +1,24 @@
+.donation-card {
+  transition: all 0.3s ease;
+  border-left: 4px solid #22c55e;
+}
+
+.donation-card:hover {
+  transform: translateX(5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.status-available {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.status-accepted {
+  color: #eab308;
+  font-weight: 600;
+}
+
+.status-delivered {
+  color: #3b82f6;
+  font-weight: 600;
+}
