@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
-import { Card, TextInput, PasswordInput, Button, Title, Text, Stack, Divider, Box, Checkbox, Anchor } from '@mantine/core'
+import { Card, TextInput, PasswordInput, Button, Title, Text, Stack, Divider, Box, Checkbox, Anchor, Group } from '@mantine/core'
 import { useForm } from '@mantine/form'
 import { IconMail, IconLock } from '@tabler/icons-react'
 import { useAuth } from '../../context/AuthContext'
